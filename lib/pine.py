@@ -92,7 +92,7 @@ def start(ENABLE_AIMBOT):
     net.setPreferableBackend(cv2.dnn.DNN_BACKEND_DEFAULT)
     net.setPreferableTarget(cv2.dnn.DNN_TARGET_OPENCL)
     ln = net.getLayerNames()
-    ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+    ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
     # Define screen capture area
     print("[INFO] loading screencapture device...")
