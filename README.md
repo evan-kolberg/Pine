@@ -8,7 +8,7 @@
 # How do I run this? &darr;
 1. Follow this [tutorial]('https://techzizou.com/setup-opencv-dnn-cuda-module-for-windows/') on how to build an OpenCV library with CUDA support if you have an NVIDIA GPU
 2. Open up a terminal with a venv (the same one that you made OpenCV for) and excecute this line:  
-`pip install termcolor imutils mss pynput pillow pywin32` (you might need to install other dependencies too) - <strong>If you made your own cv2 lib, DO NOT pip install another one</strong>
+`pip install -r requirements.txt` (you might need to install other dependencies too) - <strong>If you made your own cv2 lib, DO NOT pip install another one</strong>
 3. Test that GPU acceleration is working by running the GPU TEST.py script
 4. Run pine.py and have fun
 > Note: Building OpenCV with CUDA is a complicated process ~ you might some background computer knowledge to get this working properly
