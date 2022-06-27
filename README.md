@@ -6,7 +6,7 @@
 
 
 # How do I run this? &darr;
-1. Follow this [tutorial]('https://techzizou.com/setup-opencv-dnn-cuda-module-for-windows/') on how to build an OpenCV library with CUDA support if you have an NVIDIA GPU
+1. Follow this [tutorial](https://techzizou.com/setup-opencv-dnn-cuda-module-for-windows/) on how to build an OpenCV library with CUDA support if you have an NVIDIA GPU
 2. Open up a terminal with a venv (the same one that you made OpenCV for) and excecute this line:  
 `pip install -r requirements.txt` (you might need to install other dependencies too) - <strong>If you made your own cv2 lib, DO NOT pip install another one</strong>
 3. Test that GPU acceleration is working by running the GPU TEST.py script
