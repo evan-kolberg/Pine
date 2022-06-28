@@ -4,18 +4,20 @@ if __name__ == "__main__":
     print("Do not run this file directly.")
     sys.exit()    
 
-import numpy as np
-from termcolor import colored
-import timeit
 import _thread
-import imutils
-import time
-import mss
-import cv2
+import ctypes
 import os
 import signal
+import time
+import timeit
+
+import cv2
+import imutils
+import mss
+import numpy as np
 import pynput
-import ctypes
+from termcolor import colored
+
 from grab import grab_screen
 
 sct = mss.mss()
